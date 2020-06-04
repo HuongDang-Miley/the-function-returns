@@ -7,7 +7,7 @@ let sum = 0;
 let prod = 0;
 
 function greet(name) {
-  greeting = 'Hello ' + name;
+  greeting = greeting + ' ' + name;
 }
 
 function sumOfTwo(num1, num2) {
@@ -23,7 +23,7 @@ function returnWhatISay(said) {
 }
 
 function sayHi(name) {
-  return 'Hello ' + name + '!'
+  return greeting + ' ' + name + '!'
 }
 
 function divide(num1, num2) {
